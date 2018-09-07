@@ -1,4 +1,4 @@
-package tools_pragrams;
+package tools_programs;
 
 public class StringDifference {
 	public static void main(String[] args) {
