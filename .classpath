@@ -31,7 +31,8 @@
 	<classpathentry kind="lib" path="E:/selenium/client-combined-3.12.0-sources.jar"/>
 	<classpathentry kind="lib" path="E:/selenium/java-client-5.0.4.jar"/>
 	<classpathentry kind="lib" path="E:/selenium/jxl-2.6.jar"/>
-	<classpathentry kind="lib" path="E:/selenium/org.apache.commons.io.jar"/>
 	<classpathentry kind="lib" path="E:/selenium/sikulixapi.jar"/>
+	<classpathentry kind="lib" path="E:/selenium/org.apache.commons.io.jar"/>
+	<classpathentry kind="lib" path="E:/selenium/commons-lang3-3.4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

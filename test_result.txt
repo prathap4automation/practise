@@ -1,0 +1,7 @@
+No of Lines are : 3
+No of Words in files is :17
+No of Strings in file is :52
+h,i,h,o,w,a,r,e,y,o,u,d,a,y,T,h,i,s,p,r,o,g,r,a,m,w,a,s,w,r,i,t,t,e,n,o,n,h,o,p,e,i,t,w,o,r,k,s,f,i,n,e,
+No of Numeric values are :0
+No of Alpha numeric vales are :5
+2,15,09,2018,4,
