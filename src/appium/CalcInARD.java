@@ -66,6 +66,10 @@ public class CalcInARD {
 			//get result
 			String result=driver.findElement(By.xpath("//*[@resource-id='com.android.calculator2:id/formula']")).getAttribute("text");
 			System.out.println("Rsult of addition of "+input1+" and "+input2+" is : "+result);
+			if(Integer.parseInt(result)==(Integer.parseInt(input1)+Integer.parseInt(input2)))
+				System.out.println("Test passed");
+			else
+				System.out.println("Test Failed");
 			
 		}
 		catch(Exception ex) {
