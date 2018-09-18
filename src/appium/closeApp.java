@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import io.appium.java_client.android.AndroidDriver;
 
-public class closeApp {
+public class CloseApp {
 	static AndroidDriver driver=null;
 	static WebDriverWait wait=null;
 	public static void main(String[] args) throws Exception {
