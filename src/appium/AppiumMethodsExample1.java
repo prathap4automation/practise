@@ -95,6 +95,7 @@ public class AppiumMethodsExample1 {
 					}
 					catch(Exception e1) {System.out.println(0);}
 				}
+				System.out.println("");
 			}
 			//launch an initially launched app
 			driver.launchApp();
