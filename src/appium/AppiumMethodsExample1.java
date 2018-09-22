@@ -97,6 +97,7 @@ public class AppiumMethodsExample1 {
 				}
 				System.out.println("");
 			}
+			
 			//launch an initially launched app
 			driver.launchApp();
 			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@text='7']")));

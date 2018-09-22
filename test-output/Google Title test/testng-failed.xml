@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Google Title test]">
+  <parameter name="searchword" value="appium"/>
+  <test name="Test one(failed)">
+    <parameter name="searchword" value="kalam"/>
+    <classes>
+      <class name="testngone.GoogleTitleTestByXmlSuite">
+        <methods>
+          <include name="search" invocation-numbers="0"/>
+          <include name="close"/>
+          <include name="close"/>
+          <include name="close"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testngone.GoogleTitleTestByXmlSuite -->
+    </classes>
+  </test> <!-- Test one(failed) -->
+  <test name="Test two(failed)">
+    <parameter name="searchword" value="selenium"/>
+    <classes>
+      <class name="testngone.GoogleTitleTestByXmlSuite">
+        <methods>
+          <include name="search" invocation-numbers="0"/>
+          <include name="close"/>
+          <include name="close"/>
+          <include name="close"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testngone.GoogleTitleTestByXmlSuite -->
+    </classes>
+  </test> <!-- Test two(failed) -->
+  <test name="Test three(failed)">
+    <parameter name="searchword" value="appium"/>
+    <classes>
+      <class name="testngone.GoogleTitleTestByXmlSuite">
+        <methods>
+          <include name="search" invocation-numbers="0"/>
+          <include name="close"/>
+          <include name="close"/>
+          <include name="close"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testngone.GoogleTitleTestByXmlSuite -->
+    </classes>
+  </test> <!-- Test three(failed) -->
+</suite> <!-- Failed suite [Google Title test] -->

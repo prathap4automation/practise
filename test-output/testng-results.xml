@@ -1,69 +1,204 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="3" total="3" passed="0">
   <reporter-output>
+    <line>
+      <![CDATA[<img src="E:\selenium\class_programs\screenshots\22-Sep-18-21-04-06.png" alt="" />]]>
+    </line>
+    <line>
+      <![CDATA[<img src="E:\selenium\class_programs\screenshots\22-Sep-18-21-04-15.png" alt="" />]]>
+    </line>
+    <line>
+      <![CDATA[<img src="E:\selenium\class_programs\screenshots\22-Sep-18-21-04-24.png" alt="" />]]>
+    </line>
   </reporter-output>
-  <suite name="testing" duration-ms="51" started-at="2018-09-19T19:38:39Z" finished-at="2018-09-19T19:38:39Z">
+  <suite name="Google Title test" duration-ms="29453" started-at="2018-09-22T15:33:57Z" finished-at="2018-09-22T15:34:27Z">
     <groups>
     </groups>
-    <test name="Test one" duration-ms="51" started-at="2018-09-19T19:38:39Z" finished-at="2018-09-19T19:38:39Z">
-      <class name="testng.TestClassTwo">
-        <test-method status="PASS" signature="testMethodOneInClassTwo()[pri:0, instance:testng.TestClassTwo@14acaea5]" name="testMethodOneInClassTwo" duration-ms="8" started-at="2018-09-20T01:08:39Z" finished-at="2018-09-20T01:08:39Z">
+    <test name="Test one" duration-ms="11173" started-at="2018-09-22T15:33:57Z" finished-at="2018-09-22T15:34:09Z">
+      <class name="testngone.GoogleTitleTestByXmlSuite">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@604ed9f0]" name="setup" is-config="true" duration-ms="6607" started-at="2018-09-22T21:03:57Z" finished-at="2018-09-22T21:04:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMethodOneInClassTwo -->
-        <test-method status="PASS" signature="afterMethodInClassTwo()[pri:0, instance:testng.TestClassTwo@14acaea5]" name="afterMethodInClassTwo" is-config="true" duration-ms="1" started-at="2018-09-20T01:08:39Z" finished-at="2018-09-20T01:08:39Z">
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="search(java.lang.String)[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@604ed9f0]" name="search" duration-ms="2450" started-at="2018-09-22T21:04:04Z" finished-at="2018-09-22T21:04:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kalam]]>
+              </value>
+            </param>
+          </params>
+          <exception class="junit.framework.AssertionFailedError">
+            <message>
+              <![CDATA[Google title test failed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError: Google title test failed
+	at junit.framework.Assert.fail(Assert.java:50)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at testngone.GoogleTitleTestByXmlSuite.search(GoogleTitleTestByXmlSuite.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<img src="E:\selenium\class_programs\screenshots\22-Sep-18-21-04-06.png" alt="" />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="close()[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@604ed9f0]" name="close" is-config="true" duration-ms="2090" started-at="2018-09-22T21:04:07Z" finished-at="2018-09-22T21:04:09Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethodInClassTwo -->
-        <test-method status="PASS" signature="afterClassInClassTwo()[pri:0, instance:testng.TestClassTwo@14acaea5]" name="afterClassInClassTwo" is-config="true" duration-ms="0" started-at="2018-09-20T01:08:39Z" finished-at="2018-09-20T01:08:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClassInClassTwo -->
-        <test-method status="PASS" signature="afterTestInClassTwo()[pri:0, instance:testng.TestClassTwo@14acaea5]" name="afterTestInClassTwo" is-config="true" duration-ms="0" started-at="2018-09-20T01:08:39Z" finished-at="2018-09-20T01:08:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTestInClassTwo -->
-      </class> <!-- testng.TestClassTwo -->
-      <class name="testng.TestClassThree">
-        <test-method status="PASS" signature="testMethodOneInclassThree()[pri:0, instance:testng.TestClassThree@46d56d67]" name="testMethodOneInclassThree" duration-ms="2" started-at="2018-09-20T01:08:39Z" finished-at="2018-09-20T01:08:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethodOneInclassThree -->
-      </class> <!-- testng.TestClassThree -->
-      <class name="testng.TestClassOne">
-        <test-method status="PASS" signature="beforeSuiteInClassOne()[pri:0, instance:testng.TestClassOne@224edc67]" name="beforeSuiteInClassOne" is-config="true" duration-ms="10" started-at="2018-09-20T01:08:39Z" finished-at="2018-09-20T01:08:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuiteInClassOne -->
-        <test-method status="PASS" signature="beforeTestInClassOne()[pri:0, instance:testng.TestClassOne@224edc67]" name="beforeTestInClassOne" is-config="true" duration-ms="1" started-at="2018-09-20T01:08:39Z" finished-at="2018-09-20T01:08:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTestInClassOne -->
-        <test-method status="PASS" signature="beforeClassInClassOne()[pri:0, instance:testng.TestClassOne@224edc67]" name="beforeClassInClassOne" is-config="true" duration-ms="0" started-at="2018-09-20T01:08:39Z" finished-at="2018-09-20T01:08:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClassInClassOne -->
-        <test-method status="PASS" signature="beforeMethodInClassOne()[pri:0, instance:testng.TestClassOne@224edc67]" name="beforeMethodInClassOne" is-config="true" duration-ms="1" started-at="2018-09-20T01:08:39Z" finished-at="2018-09-20T01:08:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethodInClassOne -->
-        <test-method status="PASS" signature="testOneInClassOne()[pri:0, instance:testng.TestClassOne@224edc67]" name="testOneInClassOne" duration-ms="8" started-at="2018-09-20T01:08:39Z" finished-at="2018-09-20T01:08:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testOneInClassOne -->
-        <test-method status="PASS" signature="beforeMethodInClassOne()[pri:0, instance:testng.TestClassOne@224edc67]" name="beforeMethodInClassOne" is-config="true" duration-ms="0" started-at="2018-09-20T01:08:39Z" finished-at="2018-09-20T01:08:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethodInClassOne -->
-        <test-method status="PASS" signature="testTwoInClassOne()[pri:0, instance:testng.TestClassOne@224edc67]" name="testTwoInClassOne" duration-ms="3" started-at="2018-09-20T01:08:39Z" finished-at="2018-09-20T01:08:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTwoInClassOne -->
-        <test-method status="PASS" signature="afterSuiteInClassOne()[pri:0, instance:testng.TestClassOne@224edc67]" name="afterSuiteInClassOne" is-config="true" duration-ms="0" started-at="2018-09-20T01:08:39Z" finished-at="2018-09-20T01:08:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuiteInClassOne -->
-      </class> <!-- testng.TestClassOne -->
+        </test-method> <!-- close -->
+      </class> <!-- testngone.GoogleTitleTestByXmlSuite -->
     </test> <!-- Test one -->
-  </suite> <!-- testing -->
+    <test name="Test two" duration-ms="9540" started-at="2018-09-22T15:34:09Z" finished-at="2018-09-22T15:34:18Z">
+      <class name="testngone.GoogleTitleTestByXmlSuite">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@13deb50e]" name="setup" is-config="true" duration-ms="4861" started-at="2018-09-22T21:04:09Z" finished-at="2018-09-22T21:04:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="search(java.lang.String)[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@13deb50e]" name="search" duration-ms="2331" started-at="2018-09-22T21:04:14Z" finished-at="2018-09-22T21:04:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selenium]]>
+              </value>
+            </param>
+          </params>
+          <exception class="junit.framework.AssertionFailedError">
+            <message>
+              <![CDATA[Google title test failed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError: Google title test failed
+	at junit.framework.Assert.fail(Assert.java:50)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at testngone.GoogleTitleTestByXmlSuite.search(GoogleTitleTestByXmlSuite.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<img src="E:\selenium\class_programs\screenshots\22-Sep-18-21-04-15.png" alt="" />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="close()[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@13deb50e]" name="close" is-config="true" duration-ms="2344" started-at="2018-09-22T21:04:16Z" finished-at="2018-09-22T21:04:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testngone.GoogleTitleTestByXmlSuite -->
+    </test> <!-- Test two -->
+    <test name="Test three" duration-ms="8657" started-at="2018-09-22T15:34:18Z" finished-at="2018-09-22T15:34:27Z">
+      <class name="testngone.GoogleTitleTestByXmlSuite">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@14bf9759]" name="setup" is-config="true" duration-ms="5060" started-at="2018-09-22T21:04:18Z" finished-at="2018-09-22T21:04:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="search(java.lang.String)[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@14bf9759]" name="search" duration-ms="1489" started-at="2018-09-22T21:04:23Z" finished-at="2018-09-22T21:04:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[appium]]>
+              </value>
+            </param>
+          </params>
+          <exception class="junit.framework.AssertionFailedError">
+            <message>
+              <![CDATA[Google title test failed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError: Google title test failed
+	at junit.framework.Assert.fail(Assert.java:50)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at testngone.GoogleTitleTestByXmlSuite.search(GoogleTitleTestByXmlSuite.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<img src="E:\selenium\class_programs\screenshots\22-Sep-18-21-04-24.png" alt="" />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="close()[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@14bf9759]" name="close" is-config="true" duration-ms="2098" started-at="2018-09-22T21:04:25Z" finished-at="2018-09-22T21:04:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testngone.GoogleTitleTestByXmlSuite -->
+    </test> <!-- Test three -->
+  </suite> <!-- Google Title test -->
 </testng-results>

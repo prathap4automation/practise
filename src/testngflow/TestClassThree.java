@@ -1,4 +1,4 @@
-package testng;
+package testngflow;
 
 import org.testng.annotations.Test;
 
