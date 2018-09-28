@@ -35,12 +35,14 @@ public class DataProviderInSameCls {
 	@BeforeMethod
 	public void setup() throws Exception
 	{
-		System.setProperty("webdriver.chrome.driver", "e:\\selenium\\chromedriver.exe");
-		driver=new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.get("http://google.co.in");
-		wait=new WebDriverWait(driver,20);
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("q")));
+		if(driver==null) {
+			System.setProperty("webdriver.chrome.driver", "e:\\selenium\\chromedriver.exe");
+			driver=new ChromeDriver();
+			driver.manage().window().maximize();
+			driver.get("http://google.co.in");
+			wait=new WebDriverWait(driver,20);
+			wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("q")));
+		}
 	}
 	
 	@Test(dataProvider="searchword")

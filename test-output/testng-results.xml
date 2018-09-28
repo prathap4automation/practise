@@ -1,204 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="3" total="3" passed="0">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
-    <line>
-      <![CDATA[<img src="E:\selenium\class_programs\screenshots\22-Sep-18-21-04-06.png" alt="" />]]>
-    </line>
-    <line>
-      <![CDATA[<img src="E:\selenium\class_programs\screenshots\22-Sep-18-21-04-15.png" alt="" />]]>
-    </line>
-    <line>
-      <![CDATA[<img src="E:\selenium\class_programs\screenshots\22-Sep-18-21-04-24.png" alt="" />]]>
-    </line>
   </reporter-output>
-  <suite name="Google Title test" duration-ms="29453" started-at="2018-09-22T15:33:57Z" finished-at="2018-09-22T15:34:27Z">
+  <suite name="Flow test" duration-ms="87" started-at="2018-09-25T17:51:31Z" finished-at="2018-09-25T17:51:31Z">
     <groups>
     </groups>
-    <test name="Test one" duration-ms="11173" started-at="2018-09-22T15:33:57Z" finished-at="2018-09-22T15:34:09Z">
-      <class name="testngone.GoogleTitleTestByXmlSuite">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@604ed9f0]" name="setup" is-config="true" duration-ms="6607" started-at="2018-09-22T21:03:57Z" finished-at="2018-09-22T21:04:04Z">
+    <test name="test one" duration-ms="38" started-at="2018-09-25T17:51:31Z" finished-at="2018-09-25T17:51:31Z">
+      <class name="TestNgFlowBySir.Class1">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestNgFlowBySir.Class1@1e88b3c]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-09-25T23:21:31Z" finished-at="2018-09-25T23:21:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="search(java.lang.String)[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@604ed9f0]" name="search" duration-ms="2450" started-at="2018-09-22T21:04:04Z" finished-at="2018-09-22T21:04:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kalam]]>
-              </value>
-            </param>
-          </params>
-          <exception class="junit.framework.AssertionFailedError">
-            <message>
-              <![CDATA[Google title test failed]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[junit.framework.AssertionFailedError: Google title test failed
-	at junit.framework.Assert.fail(Assert.java:50)
-	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at testngone.GoogleTitleTestByXmlSuite.search(GoogleTitleTestByXmlSuite.java:51)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- junit.framework.AssertionFailedError -->
-          <reporter-output>
-            <line>
-              <![CDATA[<img src="E:\selenium\class_programs\screenshots\22-Sep-18-21-04-06.png" alt="" />]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- search -->
-        <test-method status="PASS" signature="close()[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@604ed9f0]" name="close" is-config="true" duration-ms="2090" started-at="2018-09-22T21:04:07Z" finished-at="2018-09-22T21:04:09Z">
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestNgFlowBySir.Class1@1e88b3c]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-09-25T23:21:31Z" finished-at="2018-09-25T23:21:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- testngone.GoogleTitleTestByXmlSuite -->
-    </test> <!-- Test one -->
-    <test name="Test two" duration-ms="9540" started-at="2018-09-22T15:34:09Z" finished-at="2018-09-22T15:34:18Z">
-      <class name="testngone.GoogleTitleTestByXmlSuite">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@13deb50e]" name="setup" is-config="true" duration-ms="4861" started-at="2018-09-22T21:04:09Z" finished-at="2018-09-22T21:04:14Z">
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testInClassOne()[pri:0, instance:TestNgFlowBySir.Class1@1e88b3c]" name="testInClassOne" duration-ms="10" started-at="2018-09-25T23:21:31Z" finished-at="2018-09-25T23:21:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="search(java.lang.String)[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@13deb50e]" name="search" duration-ms="2331" started-at="2018-09-22T21:04:14Z" finished-at="2018-09-22T21:04:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[selenium]]>
-              </value>
-            </param>
-          </params>
-          <exception class="junit.framework.AssertionFailedError">
-            <message>
-              <![CDATA[Google title test failed]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[junit.framework.AssertionFailedError: Google title test failed
-	at junit.framework.Assert.fail(Assert.java:50)
-	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at testngone.GoogleTitleTestByXmlSuite.search(GoogleTitleTestByXmlSuite.java:51)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- junit.framework.AssertionFailedError -->
-          <reporter-output>
-            <line>
-              <![CDATA[<img src="E:\selenium\class_programs\screenshots\22-Sep-18-21-04-15.png" alt="" />]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- search -->
-        <test-method status="PASS" signature="close()[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@13deb50e]" name="close" is-config="true" duration-ms="2344" started-at="2018-09-22T21:04:16Z" finished-at="2018-09-22T21:04:18Z">
+        </test-method> <!-- testInClassOne -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNgFlowBySir.Class1@1e88b3c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-09-25T23:21:31Z" finished-at="2018-09-25T23:21:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- testngone.GoogleTitleTestByXmlSuite -->
-    </test> <!-- Test two -->
-    <test name="Test three" duration-ms="8657" started-at="2018-09-22T15:34:18Z" finished-at="2018-09-22T15:34:27Z">
-      <class name="testngone.GoogleTitleTestByXmlSuite">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@14bf9759]" name="setup" is-config="true" duration-ms="5060" started-at="2018-09-22T21:04:18Z" finished-at="2018-09-22T21:04:23Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestNgFlowBySir.Class1@1e88b3c]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-09-25T23:21:31Z" finished-at="2018-09-25T23:21:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="search(java.lang.String)[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@14bf9759]" name="search" duration-ms="1489" started-at="2018-09-22T21:04:23Z" finished-at="2018-09-22T21:04:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[appium]]>
-              </value>
-            </param>
-          </params>
-          <exception class="junit.framework.AssertionFailedError">
-            <message>
-              <![CDATA[Google title test failed]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[junit.framework.AssertionFailedError: Google title test failed
-	at junit.framework.Assert.fail(Assert.java:50)
-	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at testngone.GoogleTitleTestByXmlSuite.search(GoogleTitleTestByXmlSuite.java:51)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- junit.framework.AssertionFailedError -->
-          <reporter-output>
-            <line>
-              <![CDATA[<img src="E:\selenium\class_programs\screenshots\22-Sep-18-21-04-24.png" alt="" />]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- search -->
-        <test-method status="PASS" signature="close()[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@14bf9759]" name="close" is-config="true" duration-ms="2098" started-at="2018-09-22T21:04:25Z" finished-at="2018-09-22T21:04:27Z">
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestNgFlowBySir.Class1 -->
+      <class name="TestNgFlowBySir.Class2">
+        <test-method status="PASS" signature="test()[pri:0, instance:TestNgFlowBySir.Class2@42d80b78]" name="test" duration-ms="5" started-at="2018-09-25T23:21:31Z" finished-at="2018-09-25T23:21:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- testngone.GoogleTitleTestByXmlSuite -->
-    </test> <!-- Test three -->
-  </suite> <!-- Google Title test -->
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestNgFlowBySir.Class2@42d80b78]" name="afterTest" is-config="true" duration-ms="1" started-at="2018-09-25T23:21:31Z" finished-at="2018-09-25T23:21:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNgFlowBySir.Class2@42d80b78]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-09-25T23:21:31Z" finished-at="2018-09-25T23:21:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- TestNgFlowBySir.Class2 -->
+    </test> <!-- test one -->
+    <test name="test two" duration-ms="13" started-at="2018-09-25T17:51:31Z" finished-at="2018-09-25T17:51:31Z">
+      <class name="TestNgFlowBySir.Class1">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:TestNgFlowBySir.Class1@1e88b3c]" name="beforeSuite" is-config="true" duration-ms="14" started-at="2018-09-25T23:21:31Z" finished-at="2018-09-25T23:21:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+      </class> <!-- TestNgFlowBySir.Class1 -->
+      <class name="TestNgFlowBySir.Class4">
+        <test-method status="PASS" signature="testMethodOne()[pri:0, instance:TestNgFlowBySir.Class4@464bee09]" name="testMethodOne" duration-ms="2" started-at="2018-09-25T23:21:31Z" finished-at="2018-09-25T23:21:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodOne -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:TestNgFlowBySir.Class4@464bee09]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-09-25T23:21:31Z" finished-at="2018-09-25T23:21:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- TestNgFlowBySir.Class4 -->
+      <class name="TestNgFlowBySir.Class3">
+        <test-method status="PASS" signature="test()[pri:0, instance:TestNgFlowBySir.Class3@6eebc39e]" name="test" duration-ms="2" started-at="2018-09-25T23:21:31Z" finished-at="2018-09-25T23:21:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- TestNgFlowBySir.Class3 -->
+    </test> <!-- test two -->
+  </suite> <!-- Flow test -->
 </testng-results>

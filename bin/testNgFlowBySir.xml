@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="Flow test">
+	<test name="test one">
+		<classes>
+			<class name="TestNgFlowBySir.Class1" />
+			<class name="TestNgFlowBySir.Class2" />
+		</classes>
+	</test>
+	<test name="test two">
+		<classes>
+			<class name="TestNgFlowBySir.Class3" />
+			<class name="TestNgFlowBySir.Class4" />
+		</classes>
+	</test>
+</suite>
