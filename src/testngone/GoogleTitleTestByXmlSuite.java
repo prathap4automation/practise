@@ -40,7 +40,7 @@ public class GoogleTitleTestByXmlSuite {
 		driver.findElement(By.name("q")).sendKeys(x,Keys.ENTER);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[text()='All']")));
 		String title=driver.getTitle();
-		if(!title.contains(x))
+		if(title.contains(x))
 			Assert.assertTrue("Google title test passed", true);
 		else {
 			SimpleDateFormat sf=new SimpleDateFormat("dd-MMM-yy-HH-mm-ss");
@@ -48,7 +48,14 @@ public class GoogleTitleTestByXmlSuite {
 			FileUtils.copyFile(driver.getScreenshotAs(OutputType.FILE), new File("screenshots\\"+ssname));
 			String path="<img src=\""+System.getProperty("user.dir")+"\\screenshots\\"+ssname+"\" alt=\"\" />";
 			Reporter.log(path);
-			Assert.assertTrue("Google title test failed", false);
+			Assert.assertTrue("Google title test failed",false);
+//			try{
+//			     Assert.assertTrue("Google title test failed",false);
+//			    }
+//			catch(java.lang.AssertionError e) {
+//				System.out.println(e.getMessage());
+//			}
+
 		}
 	}
 	

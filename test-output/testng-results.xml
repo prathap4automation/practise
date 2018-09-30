@@ -1,71 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
+    <line>
+      <![CDATA[<img src="E:\selenium\class_programs\screenshots\30-Sep-18-18-23-59.png" alt="" />]]>
+    </line>
+    <line>
+      <![CDATA[<img src="E:\selenium\class_programs\screenshots\30-Sep-18-18-24-08.png" alt="" />]]>
+    </line>
+    <line>
+      <![CDATA[<img src="E:\selenium\class_programs\screenshots\30-Sep-18-18-24-17.png" alt="" />]]>
+    </line>
   </reporter-output>
-  <suite name="Flow test" duration-ms="87" started-at="2018-09-25T17:51:31Z" finished-at="2018-09-25T17:51:31Z">
+  <suite name="Google Title test" duration-ms="30879" started-at="2018-09-30T12:53:49Z" finished-at="2018-09-30T12:54:20Z">
     <groups>
     </groups>
-    <test name="test one" duration-ms="38" started-at="2018-09-25T17:51:31Z" finished-at="2018-09-25T17:51:31Z">
-      <class name="TestNgFlowBySir.Class1">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestNgFlowBySir.Class1@1e88b3c]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-09-25T23:21:31Z" finished-at="2018-09-25T23:21:31Z">
+    <test name="Test one" duration-ms="12408" started-at="2018-09-30T12:53:49Z" finished-at="2018-09-30T12:54:01Z">
+      <class name="testngone.GoogleTitleTestByXmlSuite">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@604ed9f0]" name="setup" is-config="true" duration-ms="7625" started-at="2018-09-30T18:23:49Z" finished-at="2018-09-30T18:23:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestNgFlowBySir.Class1@1e88b3c]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-09-25T23:21:31Z" finished-at="2018-09-25T23:21:31Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@604ed9f0]" name="search" duration-ms="2437" started-at="2018-09-30T18:23:57Z" finished-at="2018-09-30T18:23:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kalam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<img src="E:\selenium\class_programs\screenshots\30-Sep-18-18-23-59.png" alt="" />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="close()[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@604ed9f0]" name="close" is-config="true" duration-ms="2324" started-at="2018-09-30T18:23:59Z" finished-at="2018-09-30T18:24:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="testInClassOne()[pri:0, instance:TestNgFlowBySir.Class1@1e88b3c]" name="testInClassOne" duration-ms="10" started-at="2018-09-25T23:21:31Z" finished-at="2018-09-25T23:21:31Z">
+        </test-method> <!-- close -->
+      </class> <!-- testngone.GoogleTitleTestByXmlSuite -->
+    </test> <!-- Test one -->
+    <test name="Test two" duration-ms="9289" started-at="2018-09-30T12:54:01Z" finished-at="2018-09-30T12:54:11Z">
+      <class name="testngone.GoogleTitleTestByXmlSuite">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@13deb50e]" name="setup" is-config="true" duration-ms="4944" started-at="2018-09-30T18:24:01Z" finished-at="2018-09-30T18:24:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testInClassOne -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNgFlowBySir.Class1@1e88b3c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-09-25T23:21:31Z" finished-at="2018-09-25T23:21:31Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@13deb50e]" name="search" duration-ms="2023" started-at="2018-09-30T18:24:06Z" finished-at="2018-09-30T18:24:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<img src="E:\selenium\class_programs\screenshots\30-Sep-18-18-24-08.png" alt="" />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="close()[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@13deb50e]" name="close" is-config="true" duration-ms="2314" started-at="2018-09-30T18:24:08Z" finished-at="2018-09-30T18:24:11Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestNgFlowBySir.Class1@1e88b3c]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-09-25T23:21:31Z" finished-at="2018-09-25T23:21:31Z">
+        </test-method> <!-- close -->
+      </class> <!-- testngone.GoogleTitleTestByXmlSuite -->
+    </test> <!-- Test two -->
+    <test name="Test three" duration-ms="9120" started-at="2018-09-30T12:54:11Z" finished-at="2018-09-30T12:54:20Z">
+      <class name="testngone.GoogleTitleTestByXmlSuite">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@14bf9759]" name="setup" is-config="true" duration-ms="4988" started-at="2018-09-30T18:24:11Z" finished-at="2018-09-30T18:24:16Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- TestNgFlowBySir.Class1 -->
-      <class name="TestNgFlowBySir.Class2">
-        <test-method status="PASS" signature="test()[pri:0, instance:TestNgFlowBySir.Class2@42d80b78]" name="test" duration-ms="5" started-at="2018-09-25T23:21:31Z" finished-at="2018-09-25T23:21:31Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@14bf9759]" name="search" duration-ms="1800" started-at="2018-09-30T18:24:16Z" finished-at="2018-09-30T18:24:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[appium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<img src="E:\selenium\class_programs\screenshots\30-Sep-18-18-24-17.png" alt="" />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="close()[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@14bf9759]" name="close" is-config="true" duration-ms="2328" started-at="2018-09-30T18:24:18Z" finished-at="2018-09-30T18:24:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestNgFlowBySir.Class2@42d80b78]" name="afterTest" is-config="true" duration-ms="1" started-at="2018-09-25T23:21:31Z" finished-at="2018-09-25T23:21:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNgFlowBySir.Class2@42d80b78]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-09-25T23:21:31Z" finished-at="2018-09-25T23:21:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- TestNgFlowBySir.Class2 -->
-    </test> <!-- test one -->
-    <test name="test two" duration-ms="13" started-at="2018-09-25T17:51:31Z" finished-at="2018-09-25T17:51:31Z">
-      <class name="TestNgFlowBySir.Class1">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:TestNgFlowBySir.Class1@1e88b3c]" name="beforeSuite" is-config="true" duration-ms="14" started-at="2018-09-25T23:21:31Z" finished-at="2018-09-25T23:21:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-      </class> <!-- TestNgFlowBySir.Class1 -->
-      <class name="TestNgFlowBySir.Class4">
-        <test-method status="PASS" signature="testMethodOne()[pri:0, instance:TestNgFlowBySir.Class4@464bee09]" name="testMethodOne" duration-ms="2" started-at="2018-09-25T23:21:31Z" finished-at="2018-09-25T23:21:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethodOne -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:TestNgFlowBySir.Class4@464bee09]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-09-25T23:21:31Z" finished-at="2018-09-25T23:21:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- TestNgFlowBySir.Class4 -->
-      <class name="TestNgFlowBySir.Class3">
-        <test-method status="PASS" signature="test()[pri:0, instance:TestNgFlowBySir.Class3@6eebc39e]" name="test" duration-ms="2" started-at="2018-09-25T23:21:31Z" finished-at="2018-09-25T23:21:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- TestNgFlowBySir.Class3 -->
-    </test> <!-- test two -->
-  </suite> <!-- Flow test -->
+        </test-method> <!-- close -->
+      </class> <!-- testngone.GoogleTitleTestByXmlSuite -->
+    </test> <!-- Test three -->
+  </suite> <!-- Google Title test -->
 </testng-results>

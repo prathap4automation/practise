@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<suite name="Flow test">
+<suite name="Flow test" parallel="tests" thread-count="2">
 	<test name="test one">
 		<classes>
 			<class name="TestNgFlowBySir.Class1" />

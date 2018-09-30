@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Google and Yahoo Title Test]">
+  <parameter name="searchword" value="kalam"/>
+  <test name="Google Title test(failed)">
+    <parameter name="searchword" value="kalam"/>
+    <classes>
+      <class name="testngtwo.GoogleTitleTest">
+        <methods>
+          <include name="search" invocation-numbers="0"/>
+          <include name="close"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testngtwo.GoogleTitleTest -->
+    </classes>
+  </test> <!-- Google Title test(failed) -->
+</suite> <!-- Failed suite [Google and Yahoo Title Test] -->

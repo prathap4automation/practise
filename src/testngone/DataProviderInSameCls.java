@@ -48,19 +48,21 @@ public class DataProviderInSameCls {
 	@Test(dataProvider="searchword")
 	public void search(String x) throws Exception
 	{
-		driver.findElement(By.name("q")).sendKeys(x,Keys.ENTER);
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[text()='All']")));
-		String title=driver.getTitle();
-		if(title.contains(x)) 
-			Assert.assertTrue("Google title test passed", true);
-		else {
-			SimpleDateFormat sf=new SimpleDateFormat("dd-MMM-yy-HH-mm-ss");
-			String ssname=sf.format(new Date())+".png";
-			FileUtils.copyFile(driver.getScreenshotAs(OutputType.FILE), new File("screenshots\\"+ssname));
-			String cwd=System.getProperty("user.dir");
-			String path="<img src=\""+cwd+"\\screenshots\\"+ssname+"\" alt=\"failed image\" />";
-			Reporter.log(path);
-			Assert.assertTrue("Google title test failed", false);
+		if(driver==null) {
+			driver.findElement(By.name("q")).sendKeys(x,Keys.ENTER);
+			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[text()='All']")));
+			String title=driver.getTitle();
+			if(title.contains(x)) 
+				Assert.assertTrue("Google title test passed", true);
+			else {
+				SimpleDateFormat sf=new SimpleDateFormat("dd-MMM-yy-HH-mm-ss");
+				String ssname=sf.format(new Date())+".png";
+				FileUtils.copyFile(driver.getScreenshotAs(OutputType.FILE), new File("screenshots\\"+ssname));
+				String cwd=System.getProperty("user.dir");
+				String path="<img src=\""+cwd+"\\screenshots\\"+ssname+"\" alt=\"failed image\" />";
+				Reporter.log(path);
+				Assert.assertTrue("Google title test failed", false);
+			}
 		}
 	}
 	

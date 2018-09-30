@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="Google and Yahoo Title Test" parallel="tests" thread-count="2">
+	<test name="Google Title test">
+		<parameter name="searchword" value="kalam"></parameter>
+		<classes>
+			<class name="testngtwo.GoogleTitleTest"/>
+		</classes>
+	</test>
+	<test name="Yahoo Title Test">
+		<parameter name="searchword" value="selenium"></parameter>
+		<classes>
+			<class name="testngtwo.YahooTitleTest"/>
+		</classes>
+	</test>
+</suite>
