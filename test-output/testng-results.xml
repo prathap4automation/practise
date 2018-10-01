@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
-    <line>
-      <![CDATA[<img src="E:\selenium\class_programs\screenshots\30-Sep-18-18-23-59.png" alt="" />]]>
-    </line>
-    <line>
-      <![CDATA[<img src="E:\selenium\class_programs\screenshots\30-Sep-18-18-24-08.png" alt="" />]]>
-    </line>
-    <line>
-      <![CDATA[<img src="E:\selenium\class_programs\screenshots\30-Sep-18-18-24-17.png" alt="" />]]>
-    </line>
   </reporter-output>
-  <suite name="Google Title test" duration-ms="30879" started-at="2018-09-30T12:53:49Z" finished-at="2018-09-30T12:54:20Z">
+  <suite name="Google and Yahoo Title Test" duration-ms="21872" started-at="2018-10-01T06:53:39Z" finished-at="2018-10-01T06:54:01Z">
     <groups>
     </groups>
-    <test name="Test one" duration-ms="12408" started-at="2018-09-30T12:53:49Z" finished-at="2018-09-30T12:54:01Z">
-      <class name="testngone.GoogleTitleTestByXmlSuite">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@604ed9f0]" name="setup" is-config="true" duration-ms="7625" started-at="2018-09-30T18:23:49Z" finished-at="2018-09-30T18:23:57Z">
+    <test name="Google Title test" duration-ms="14380" started-at="2018-10-01T06:53:39Z" finished-at="2018-10-01T06:53:53Z">
+      <class name="testngtwo.GoogleTitleTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testngtwo.GoogleTitleTest@7cd62f43]" name="setup" is-config="true" duration-ms="9360" started-at="2018-10-01T12:23:39Z" finished-at="2018-10-01T12:23:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@604ed9f0]" name="search" duration-ms="2437" started-at="2018-09-30T18:23:57Z" finished-at="2018-09-30T18:23:59Z">
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:testngtwo.GoogleTitleTest@7cd62f43]" name="search" duration-ms="2497" started-at="2018-10-01T12:23:48Z" finished-at="2018-10-01T12:23:51Z">
           <params>
             <param index="0">
               <value>
@@ -29,24 +20,21 @@
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[<img src="E:\selenium\class_programs\screenshots\30-Sep-18-18-23-59.png" alt="" />]]>
-            </line>
           </reporter-output>
         </test-method> <!-- search -->
-        <test-method status="PASS" signature="close()[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@604ed9f0]" name="close" is-config="true" duration-ms="2324" started-at="2018-09-30T18:23:59Z" finished-at="2018-09-30T18:24:01Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:testngtwo.GoogleTitleTest@7cd62f43]" name="close" is-config="true" duration-ms="2502" started-at="2018-10-01T12:23:51Z" finished-at="2018-10-01T12:23:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- testngone.GoogleTitleTestByXmlSuite -->
-    </test> <!-- Test one -->
-    <test name="Test two" duration-ms="9289" started-at="2018-09-30T12:54:01Z" finished-at="2018-09-30T12:54:11Z">
-      <class name="testngone.GoogleTitleTestByXmlSuite">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@13deb50e]" name="setup" is-config="true" duration-ms="4944" started-at="2018-09-30T18:24:01Z" finished-at="2018-09-30T18:24:06Z">
+      </class> <!-- testngtwo.GoogleTitleTest -->
+    </test> <!-- Google Title test -->
+    <test name="Yahoo Title Test" duration-ms="21872" started-at="2018-10-01T06:53:39Z" finished-at="2018-10-01T06:54:01Z">
+      <class name="testngtwo.YahooTitleTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testngtwo.YahooTitleTest@598067a5]" name="setup" is-config="true" duration-ms="19714" started-at="2018-10-01T12:23:39Z" finished-at="2018-10-01T12:23:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@13deb50e]" name="search" duration-ms="2023" started-at="2018-09-30T18:24:06Z" finished-at="2018-09-30T18:24:08Z">
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:testngtwo.YahooTitleTest@598067a5]" name="search" duration-ms="2023" started-at="2018-10-01T12:23:59Z" finished-at="2018-10-01T12:24:01Z">
           <params>
             <param index="0">
               <value>
@@ -55,42 +43,13 @@
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[<img src="E:\selenium\class_programs\screenshots\30-Sep-18-18-24-08.png" alt="" />]]>
-            </line>
           </reporter-output>
         </test-method> <!-- search -->
-        <test-method status="PASS" signature="close()[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@13deb50e]" name="close" is-config="true" duration-ms="2314" started-at="2018-09-30T18:24:08Z" finished-at="2018-09-30T18:24:11Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:testngtwo.YahooTitleTest@598067a5]" name="close" is-config="true" duration-ms="116" started-at="2018-10-01T12:24:01Z" finished-at="2018-10-01T12:24:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- testngone.GoogleTitleTestByXmlSuite -->
-    </test> <!-- Test two -->
-    <test name="Test three" duration-ms="9120" started-at="2018-09-30T12:54:11Z" finished-at="2018-09-30T12:54:20Z">
-      <class name="testngone.GoogleTitleTestByXmlSuite">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@14bf9759]" name="setup" is-config="true" duration-ms="4988" started-at="2018-09-30T18:24:11Z" finished-at="2018-09-30T18:24:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@14bf9759]" name="search" duration-ms="1800" started-at="2018-09-30T18:24:16Z" finished-at="2018-09-30T18:24:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[appium]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[<img src="E:\selenium\class_programs\screenshots\30-Sep-18-18-24-17.png" alt="" />]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- search -->
-        <test-method status="PASS" signature="close()[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@14bf9759]" name="close" is-config="true" duration-ms="2328" started-at="2018-09-30T18:24:18Z" finished-at="2018-09-30T18:24:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- testngone.GoogleTitleTestByXmlSuite -->
-    </test> <!-- Test three -->
-  </suite> <!-- Google Title test -->
+      </class> <!-- testngtwo.YahooTitleTest -->
+    </test> <!-- Yahoo Title Test -->
+  </suite> <!-- Google and Yahoo Title Test -->
 </testng-results>

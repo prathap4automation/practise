@@ -4,6 +4,7 @@
 		<parameter name="searchword" value="kalam"></parameter>
 		<classes>
 			<class name="testngtwo.GoogleTitleTest"/>
+			<!-- <class name="testngtwo.YahooTitleTest"/>  -->
 		</classes>
 	</test>
 	<test name="Yahoo Title Test">
@@ -13,3 +14,15 @@
 		</classes>
 	</test>
 </suite>
+<!--
+Runnimg multiple classes
+<suite name="Google and Yahoo Title Test" parallel="classes" thread-count="2">
+	<test name="Google Title test">
+		<parameter name="searchword" value="kalam"></parameter>
+		<classes>
+			<class name="testngtwo.GoogleTitleTest"/>
+			<class name="testngtwo.YahooTitleTest"/>
+		</classes>
+	</test>
+</suite> 
+ -->

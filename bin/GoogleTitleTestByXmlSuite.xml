@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <suite name="Google Title test">
-	<test name="Test one">
+	<test name="Google Title test 1">
 		<parameter name="searchword" value="kalam"></parameter>
 		<classes>
 			<class name="testngone.GoogleTitleTestByXmlSuite"/>
 		</classes>
 	</test>
-	<test name="Test two">
+	<test name="Google Title test 2">
 		<parameter name="searchword" value="selenium"></parameter>
 		<classes>
 			<class name="testngone.GoogleTitleTestByXmlSuite"/>
 		</classes>
 	</test>
-	<test name="Test three">
+	<test name="Google Title test 2">
 		<parameter name="searchword" value="appium"></parameter>
 		<classes>
 			<class name="testngone.GoogleTitleTestByXmlSuite"/>
