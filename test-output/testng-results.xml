@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Google and Yahoo Title Test" duration-ms="21872" started-at="2018-10-01T06:53:39Z" finished-at="2018-10-01T06:54:01Z">
+  <suite name="Google Title test" duration-ms="142671" started-at="2018-10-10T08:19:58Z" finished-at="2018-10-10T08:22:20Z">
     <groups>
     </groups>
-    <test name="Google Title test" duration-ms="14380" started-at="2018-10-01T06:53:39Z" finished-at="2018-10-01T06:53:53Z">
-      <class name="testngtwo.GoogleTitleTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testngtwo.GoogleTitleTest@7cd62f43]" name="setup" is-config="true" duration-ms="9360" started-at="2018-10-01T12:23:39Z" finished-at="2018-10-01T12:23:48Z">
+    <test name="Google Title test 1" duration-ms="49300" started-at="2018-10-10T08:19:58Z" finished-at="2018-10-10T08:20:47Z">
+      <class name="testngone.GoogleTitleTestByXmlSuite">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@604ed9f0]" name="setup" is-config="true" duration-ms="32932" started-at="2018-10-10T13:49:58Z" finished-at="2018-10-10T13:50:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:testngtwo.GoogleTitleTest@7cd62f43]" name="search" duration-ms="2497" started-at="2018-10-01T12:23:48Z" finished-at="2018-10-01T12:23:51Z">
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@604ed9f0]" name="search" duration-ms="14036" started-at="2018-10-10T13:50:30Z" finished-at="2018-10-10T13:50:45Z">
           <params>
             <param index="0">
               <value>
@@ -22,19 +22,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search -->
-        <test-method status="PASS" signature="close()[pri:0, instance:testngtwo.GoogleTitleTest@7cd62f43]" name="close" is-config="true" duration-ms="2502" started-at="2018-10-01T12:23:51Z" finished-at="2018-10-01T12:23:53Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@604ed9f0]" name="close" is-config="true" duration-ms="2309" started-at="2018-10-10T13:50:45Z" finished-at="2018-10-10T13:50:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- testngtwo.GoogleTitleTest -->
-    </test> <!-- Google Title test -->
-    <test name="Yahoo Title Test" duration-ms="21872" started-at="2018-10-01T06:53:39Z" finished-at="2018-10-01T06:54:01Z">
-      <class name="testngtwo.YahooTitleTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testngtwo.YahooTitleTest@598067a5]" name="setup" is-config="true" duration-ms="19714" started-at="2018-10-01T12:23:39Z" finished-at="2018-10-01T12:23:59Z">
+      </class> <!-- testngone.GoogleTitleTestByXmlSuite -->
+    </test> <!-- Google Title test 1 -->
+    <test name="Google Title test 2" duration-ms="45232" started-at="2018-10-10T08:20:47Z" finished-at="2018-10-10T08:21:32Z">
+      <class name="testngone.GoogleTitleTestByXmlSuite">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@13deb50e]" name="setup" is-config="true" duration-ms="21456" started-at="2018-10-10T13:50:47Z" finished-at="2018-10-10T13:51:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:testngtwo.YahooTitleTest@598067a5]" name="search" duration-ms="2023" started-at="2018-10-01T12:23:59Z" finished-at="2018-10-01T12:24:01Z">
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@13deb50e]" name="search" duration-ms="21449" started-at="2018-10-10T13:51:08Z" finished-at="2018-10-10T13:51:30Z">
           <params>
             <param index="0">
               <value>
@@ -45,11 +45,34 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search -->
-        <test-method status="PASS" signature="close()[pri:0, instance:testngtwo.YahooTitleTest@598067a5]" name="close" is-config="true" duration-ms="116" started-at="2018-10-01T12:24:01Z" finished-at="2018-10-01T12:24:01Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@13deb50e]" name="close" is-config="true" duration-ms="2323" started-at="2018-10-10T13:51:30Z" finished-at="2018-10-10T13:51:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- testngtwo.YahooTitleTest -->
-    </test> <!-- Yahoo Title Test -->
-  </suite> <!-- Google and Yahoo Title Test -->
+      </class> <!-- testngone.GoogleTitleTestByXmlSuite -->
+    </test> <!-- Google Title test 2 -->
+    <test name="Google Title test 3" duration-ms="48078" started-at="2018-10-10T08:21:32Z" finished-at="2018-10-10T08:22:20Z">
+      <class name="testngone.GoogleTitleTestByXmlSuite">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@14bf9759]" name="setup" is-config="true" duration-ms="15249" started-at="2018-10-10T13:51:32Z" finished-at="2018-10-10T13:51:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@14bf9759]" name="search" duration-ms="30511" started-at="2018-10-10T13:51:47Z" finished-at="2018-10-10T13:52:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[appium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="close()[pri:0, instance:testngone.GoogleTitleTestByXmlSuite@14bf9759]" name="close" is-config="true" duration-ms="2314" started-at="2018-10-10T13:52:18Z" finished-at="2018-10-10T13:52:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testngone.GoogleTitleTestByXmlSuite -->
+    </test> <!-- Google Title test 3 -->
+  </suite> <!-- Google Title test -->
 </testng-results>
