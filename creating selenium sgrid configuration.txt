@@ -1,0 +1,6 @@
+creating hub:
+Java -jar e:\selenium\ss.jar -role hub
+
+creating nodes:
+java -Dwebdriver.gecko.driver="e:\selenium\geckodriver.exe" -jar e:\selenium\ss.jar -role webdriver -hub http://192.168.0.102:4444/grid/register -port 5566
+java -Dwebdriver.chrome.driver="e:\selenium\chromedriver.exe" -jar e:\selenium\ss.jar -role webdriver -hub http://192.168.0.102:4444/grid/register -port 5577
