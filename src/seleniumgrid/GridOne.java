@@ -3,38 +3,32 @@ package seleniumgrid;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class GridOne {
-	public RemoteWebDriver driver;
-	public static String baseUrl = "http://www.google.com";
-	
-	@BeforeClass
-	public void setUp() throws MalformedURLException {
-		DesiredCapabilities capabilities = DesiredCapabilities.firefox();
-		driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilities);
-		driver.manage().window().maximize();
-	}
-	
+	public static WebDriver driver;
 	@Test
-	public void testGooglePageTitleInIEBrowser() {
-		System.out.println("*** Navigation to Application ***");
-		driver.navigate().to(baseUrl);
-		String strPageTitle = driver.getTitle();
-		System.out.println("*** Verifying page title ***");
-		Assert.assertTrue(strPageTitle.equalsIgnoreCase("Google"), "Page title doesn't match");
+	@Parameters({"nodeTwoUrl"})
+	public void test(String nodeTwoUrl) throws Exception
+	{
+		ChromeOptions coptions=new ChromeOptions();
+		driver = new RemoteWebDriver(new URL(nodeTwoUrl), coptions);
+		driver.navigate().to("https://flipkart.com");
+		driver.manage().window().maximize();
+		String ftitle=driver.getTitle();
+		if(ftitle.contains("Online Shopping Site"))
+			System.out.println("Flipkart title test passed");
+		else 
+			System.out.println("Flipkart title test failed");
+		Thread.sleep(3000);
+		driver.quit();
 	}
-	
-	@AfterClass
-	public void closeBrowser() {
-		if (driver != null) {
-			driver.quit();
-		}
-	}
-
 }

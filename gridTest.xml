@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="Grid Tests parallelly" parallel="classes" thread-count="2">
+	<test name="Grids testing">
+	<parameter name="nodeOneUrl" value="http://192.168.0.100:5566/wd/hub" />
+	<parameter name="nodeTwoUrl" value="http://192.168.0.100:5577/wd/hub" />
+		<classes>
+			<class name="seleniumgrid.GridOne" />
+			<class name="seleniumgrid.GridTwo" />
+		</classes>
+	</test>
+</suite>

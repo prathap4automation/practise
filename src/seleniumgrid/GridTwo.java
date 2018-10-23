@@ -7,16 +7,22 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+import com.sun.jna.Platform;
 
 public class GridTwo {
 	public static WebDriver driver;
-	static String nodeOneUrl="http://192.168.0.101:5566/wd/hub";
-	static String nodeTwoUrl="http://192.168.0.101:5577/wd/hub";
 	
-	public static void main(String[] args) throws Exception
+	@Test
+	@Parameters({"nodeOneUrl"})
+	public void test(String nodeOneUrl) throws Exception
 	{
-		//node one
+		DesiredCapabilities cap=new DesiredCapabilities();
+		cap.setBrowserName("firefox");
 		FirefoxOptions ffoptions = new FirefoxOptions();
+		ffoptions.merge(cap);
 		driver = new RemoteWebDriver(new URL(nodeOneUrl), ffoptions);
 		driver.navigate().to("http://www.google.co.in");
 		driver.manage().window().maximize();
@@ -25,20 +31,6 @@ public class GridTwo {
 			System.out.println("Test passed");
 		else
 			System.out.println("Test failed");
-		Thread.sleep(3000);
-		driver.quit();
-		
-		//node two
-		ChromeOptions coptions=new ChromeOptions();
-		driver = new RemoteWebDriver(new URL(nodeTwoUrl), coptions);
-		driver.navigate().to("https://flipkart.com");
-		driver.manage().window().maximize();
-		String ftitle=driver.getTitle();
-		if(ftitle.contains("Online Shopping Site"))
-			System.out.println("Flipkart title test passed");
-		else 
-			System.out.println("Flipkart title test failed");
-		Thread.sleep(3000);
 		driver.quit();
 	}
 }
