@@ -13,7 +13,7 @@ public class RunnerUsingPOI {
 
 	public static void main(String[] args) throws Exception {
 		//get the excel file
-		FileInputStream inputStream=new FileInputStream("test_2.xls");
+		FileInputStream inputStream=new FileInputStream("test_xls_poi.xls");
 		HSSFWorkbook rwb=new HSSFWorkbook(inputStream);
 		HSSFSheet rsh1=rwb.getSheetAt(0);
 		try {
@@ -27,16 +27,19 @@ public class RunnerUsingPOI {
 			{
 				for(int i=1;i<nour;i++)
 				{
-					Double res=rsh1.getRow(i).getCell(j).getNumericCellValue()+rsh1.getRow(i).getCell(j+1).getNumericCellValue();
+					Double input1=rsh1.getRow(i).getCell(j).getNumericCellValue();
+					Double input2 = rsh1.getRow(i).getCell(j+1).getNumericCellValue();
+					Double res=input1+input2;
 					System.out.println(res);
 					row=rsh1.createRow(i);
-					Cell cell=row.createCell(2);
-					cell.setCellValue(res);
+					row.createCell(j).setCellValue(input1);
+					row.createCell(j+1).setCellValue(input2);
+					row.createCell(j+2).setCellValue(res);
 				}
 				break;
 			}
 			inputStream.close();//close file which opened for reading purpose
-			FileOutputStream outputStream = new FileOutputStream("test_2.xls");
+			FileOutputStream outputStream = new FileOutputStream("test_xls_poi.xls");
 //			HSSFWorkbook wwb=new HSSFWorkbook(outputStream);
 			rwb.write(outputStream);
 			outputStream.close();
