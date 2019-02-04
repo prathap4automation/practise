@@ -4,3 +4,12 @@ Java -jar e:\selenium\ss.jar -role hub
 creating nodes:
 java -Dwebdriver.gecko.driver="e:\selenium\geckodriver.exe" -jar e:\selenium\ss.jar -role webdriver -hub http://192.168.0.102:4444/grid/register -port 5566
 java -Dwebdriver.chrome.driver="e:\selenium\chromedriver.exe" -jar e:\selenium\ss.jar -role webdriver -hub http://192.168.0.102:4444/grid/register -port 5577
+
+creating hub in mac:
+java -jar /Users/prathapmallipeddi/eclipse-workspace/ss.jar -role hub
+
+creating nodes in mac:
+java -Dwebdriver.gecko.driver="/Users/prathapmallipeddi/eclipse-workspace/mmt/lib/geckodriver" -jar /Users/prathapmallipeddi/eclipse-workspace/ss.jar -role webdriver -hub http://192.168.0.102:4444/grid/register/ -port 5577
+
+
+java -Dwebdriver.gecko.driver="/Users/prathapmallipeddi/eclipse-workspace/mmt/lib/chromedriver" -jar /Users/prathapmallipeddi/eclipse-workspace/ss.jar -role webdriver -hub http://192.168.0.102:4444/grid/register/ -port 5566
