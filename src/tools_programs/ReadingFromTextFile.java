@@ -20,7 +20,7 @@ public class ReadingFromTextFile {
 		File f2=new File("test_result.txt");
 		FileWriter fw=new FileWriter(f2);
 		BufferedWriter bw=new BufferedWriter(fw);
-		/*>>Data driven ode start*/
+		/*>>Data driven code start*/
 		ArrayList<String> stringValues=new ArrayList<String>();
 		ArrayList<String> numberValues=new ArrayList<String>();
 		ArrayList<String> alphaValues=new ArrayList<String>();
